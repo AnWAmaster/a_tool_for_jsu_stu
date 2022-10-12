@@ -526,11 +526,11 @@ class Window:
         # 程序的标题名称
         self.window.title('工具')
         # 窗口处于最上层
-        tk.Toplevel().attributes('-topmost', 'true')
-        try:
-            self.window.iconbitmap('favicon.ico')
-        except:
-            pass
+        self.window.wm_attributes('-topmost',1)
+        # try:
+        #     self.window.iconbitmap('favicon.ico')
+        # except:
+        #     pass
         # 得到屏幕宽度
         sw = window.winfo_screenwidth()
         # 得到屏幕高度
