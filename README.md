@@ -1,4 +1,4 @@
-本软件是个人的Playwright和requests的小作品
+本软件是个人的`Playwright`和`requests`和`tkinter`的小作品
 可以供吉首大学学生来获取个人成绩表以及获取未完成作业信息
 
 文件介绍：
