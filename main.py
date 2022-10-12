@@ -523,7 +523,10 @@ class Window:
     def __init__(self, window):
         # 绑定窗口
         self.window = window
-        self.window.title('工具')  # 程序的标题名称
+        # 程序的标题名称
+        self.window.title('工具')
+        # 窗口处于最上层
+        tk.Toplevel().attributes('-topmost', 'true')
         try:
             self.window.iconbitmap('favicon.ico')
         except:

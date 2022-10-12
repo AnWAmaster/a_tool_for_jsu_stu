@@ -11,6 +11,7 @@
 打包方式：
 
 	1. 安装pyinstaller
-	1. 在当前目录执行 `pyinstaller -F -w -i .\favicon.ico main.py`
+	2. 在当前目录执行 `pyinstaller -F -w -i .\favicon.ico main.py`
+	3. 打包后文件处于./dist/文件夹下
 
 作者邮箱：2213732736@qq.com
