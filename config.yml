@@ -1,0 +1,12 @@
+# 获取作业
+chaoxing:
+  # 手机号
+  phone: ""
+  # 密码
+  password : ""
+# 获取成绩表
+qiangzhi:
+  # 学号
+  stu_id : ""
+  # 密码
+  password: "."
